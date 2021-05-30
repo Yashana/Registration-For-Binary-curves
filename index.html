@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraion form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>Registration Form</h2>
+            <form id="register" action="results.html" method="GET" enctype="multipart/form-data">
+
+                <label for="name"><b>Name: </b></label>
+                <br>
+                <input type="text" name="Name: " id="name" required placeholder="Enter your name">
+                <br><br>
+
+                <label for="email"><b>Email id: </b></label>
+                <br>
+                <input type="email" name="Email id: " id="name" required placeholder="nickjohn@gmail.com">
+                <br><br>
+
+                <label for="age"><b>Enter your age: </b></label>
+                <br>
+                <input type="number" name="Age: " id="name" min="18" max="32" step="1">
+                <br><br>
+
+                <label for="date"><b>Birth Date: </b></label>
+                <br>
+                <input type="date" name="Birthdate: " id="name" min="1988-05-31" max="2001-06-01">
+                <br><br>
+
+                <label><b>Gender:</b></label>
+                <br>
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Gender: " id="male" value="male">
+                &nbsp;
+                <span id="male">Male</span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Gender: " id="female" value="female">
+                <span id="male">Female</span>
+                <br><br>
+
+                <label for="address"><b>Address: </b></label>
+                <br>
+                <input type="text" name="Address: " id="name" required>
+                <br><br>
+
+
+                <label for="phone"><b>Phone Number: </b></label>
+                <br>
+                <input type="tel" name="Phone: " id="name" required placeholder="Enter 10 digits contact no.">
+                <br><br>
+
+                <label for="website"><b>Website URL: </b></label>
+                <br>
+                <input type="url" name="Website: " id="name"
+                    placeholder="https://www.linkedin.com/in/yashana-singh-8139bb152">
+                <br><br>
+
+                <label for="experience"><b>Years of Experience: </b></label>
+                <br>
+                <select name="Experience" id="experience" required>
+                    <option value="fresher">Fresher(0 yr)</option>
+                    <option value="1year">1 year</option>
+                    <option value="1year">2 year</option>
+                    <option value="1year">>2 year</option>
+                </select>
+                <br><br>
+
+                <label for="coverletter"><b>Cover Letter: </b></label>
+                <br>
+                <textarea id="coverletter" name="Cover Letter: "></textarea>
+                <br><br>
+
+                <label for="resume"><b>Upload your Resume: </b></label>
+                <br>
+                <input type="file" name="Resume: " id="resume">
+                <br><br>
+
+                <label for="fields"><b>Fields you want to apply for: </b></label>
+                <br>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Fields:" id="webdev">
+                &nbsp;
+                <span id="webdev">Web Developer</span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Fields:" id="sofdev">
+                &nbsp;
+                <span id="sofdev">Software Developer</span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Fields:" id="anddev">
+                &nbsp;
+                <span id="anddev">Android Developer</span>
+                <br><br>
+
+                <label for="password"><b>Password: </b></label>
+                <br>
+                <input type="password" name="Password: " id="name" required>
+                <br><br>
+
+                <input type="submit" value="Submit" name="submit" id="submit">
+                <br><br>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
